@@ -10,11 +10,12 @@ class pressure_node(Node):
         super().__init__('pressure_node')
         self.publisher_ = self.create_publisher(FluidPressure, '/pressure', 10)
         self.timer = self.create_timer(2.0, self.timer_callback)
+        self.get_logger().info('Pressure node has been started.')
         
 
     def timer_callback(self):
         msg = FluidPressure()
-        msg.fluid_pressure = random.randint(900, 1100) # Simulated pressure value
+        msg.fluid_pressure = float(random.randint(900, 1100)) # Simulated pressure value
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing Pressure: "{msg.fluid_pressure:.1f}hPa"')
         

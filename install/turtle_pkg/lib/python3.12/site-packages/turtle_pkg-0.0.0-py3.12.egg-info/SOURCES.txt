@@ -14,3 +14,4 @@ test/test_flake8.py
 test/test_pep257.py
 test/test_xmllint.py
 turtle_pkg/__init__.py
+turtle_pkg/turtle_node.py

@@ -20,6 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'temperature_node = turtle_pkg.temperature_node:main',
+            'humidity_node = turtle_pkg.humidity_node:main',
+            'pressure_node = turtle_pkg.pressure_node:main',
+            'monitor_node = turtle_pkg.monitor_node:main',
         ],
     },
 )

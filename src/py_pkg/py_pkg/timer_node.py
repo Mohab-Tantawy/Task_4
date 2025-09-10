@@ -7,7 +7,7 @@ from std_msgs.msg import Int16
 class timer_node(Node):
     def __init__(self):
         super().__init__('timer_node')
-        self.publisher_ = self.create_publisher(Int16, 'topic', 10)
+        self.publisher_ = self.create_publisher(Int16, '/Timer', 10)
         self.timer = self.create_timer(1.0, self.timer_callback)
         self.count = 10
         self.get_logger().info('Timer node has been started.')

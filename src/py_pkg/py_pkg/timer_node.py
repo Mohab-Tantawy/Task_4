@@ -13,13 +13,15 @@ class timer_node(Node):
 
     def timer_callback(self):
         
-        while self.count != 0:
-            msg = Int16()
-            msg.data = f'{self.count}'
-            self.publisher_.publish(msg)
-            self.get_logger().info(f'Publishing: "{msg.data}"')
-            self.count -= 1
-        self.get_logger().info('Countdown finished!')
+        
+        msg = Int16()
+        msg.data = f'{self.count}'
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Publishing: "{msg.data}"')
+        self.count -= 1
+        if self.count < 0:
+            self.get_logger().info('Countdown finished!')
+            self.timer.cancel()
         
 def main():
     rclpy.init()
@@ -27,3 +29,6 @@ def main():
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+if __name__ == '__main__':
+    main()
+    

@@ -1,0 +1,25 @@
+[4.554s] Invoking command in '/home/mohab/ros2_ws/src/py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohab/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/mohab/ros2_ws/build/py_pkg/build install --record /home/mohab/ros2_ws/build/py_pkg/install.log --single-version-externally-managed install_data
+[4.848s] running egg_info
+[4.849s] creating ../../build/py_pkg/py_pkg.egg-info
+[4.869s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[4.873s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[4.873s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[4.873s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[4.874s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[4.874s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[4.896s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[4.896s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[4.896s] running build
+[4.896s] running install
+[4.901s] running install_data
+[4.903s] creating /home/mohab/ros2_ws/install/py_pkg/share/ament_index
+[4.903s] creating /home/mohab/ros2_ws/install/py_pkg/share/ament_index/resource_index
+[4.903s] creating /home/mohab/ros2_ws/install/py_pkg/share/ament_index/resource_index/packages
+[4.903s] copying resource/py_pkg -> /home/mohab/ros2_ws/install/py_pkg/share/ament_index/resource_index/packages
+[4.903s] copying package.xml -> /home/mohab/ros2_ws/install/py_pkg/share/py_pkg
+[4.903s] running install_egg_info
+[4.943s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info
+[4.945s] running install_scripts
+[5.097s] Installing timer_node script to /home/mohab/ros2_ws/install/py_pkg/lib/py_pkg
+[5.097s] writing list of installed files to '/home/mohab/ros2_ws/build/py_pkg/install.log'
+[5.137s] Invoked command in '/home/mohab/ros2_ws/src/py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohab/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/mohab/ros2_ws/build/py_pkg/build install --record /home/mohab/ros2_ws/build/py_pkg/install.log --single-version-externally-managed install_data

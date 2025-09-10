@@ -1,0 +1,32 @@
+[4.484s] Invoking command in '/home/mohab/ros2_ws/src/weather_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohab/ros2_ws/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/weather_pkg build --build-base /home/mohab/ros2_ws/build/weather_pkg/build install --record /home/mohab/ros2_ws/build/weather_pkg/install.log --single-version-externally-managed install_data
+[4.763s] running egg_info
+[4.763s] creating ../../build/weather_pkg/weather_pkg.egg-info
+[4.784s] writing ../../build/weather_pkg/weather_pkg.egg-info/PKG-INFO
+[4.785s] writing dependency_links to ../../build/weather_pkg/weather_pkg.egg-info/dependency_links.txt
+[4.785s] writing requirements to ../../build/weather_pkg/weather_pkg.egg-info/requires.txt
+[4.786s] writing top-level names to ../../build/weather_pkg/weather_pkg.egg-info/top_level.txt
+[4.786s] writing manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[4.831s] reading manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[4.832s] writing manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[4.832s] running build
+[4.833s] running build_py
+[4.833s] creating /home/mohab/ros2_ws/build/weather_pkg/build
+[4.833s] creating /home/mohab/ros2_ws/build/weather_pkg/build/lib
+[4.833s] creating /home/mohab/ros2_ws/build/weather_pkg/build/lib/weather_pkg
+[4.834s] copying weather_pkg/__init__.py -> /home/mohab/ros2_ws/build/weather_pkg/build/lib/weather_pkg
+[4.834s] running install
+[4.843s] running install_lib
+[4.858s] creating /home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[4.859s] copying /home/mohab/ros2_ws/build/weather_pkg/build/lib/weather_pkg/__init__.py -> /home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[4.860s] byte-compiling /home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/__init__.py to __init__.cpython-312.pyc
+[4.860s] running install_data
+[4.861s] creating /home/mohab/ros2_ws/install/weather_pkg/share/ament_index
+[4.861s] creating /home/mohab/ros2_ws/install/weather_pkg/share/ament_index/resource_index
+[4.861s] creating /home/mohab/ros2_ws/install/weather_pkg/share/ament_index/resource_index/packages
+[4.861s] copying resource/weather_pkg -> /home/mohab/ros2_ws/install/weather_pkg/share/ament_index/resource_index/packages
+[4.861s] copying package.xml -> /home/mohab/ros2_ws/install/weather_pkg/share/weather_pkg
+[4.861s] running install_egg_info
+[4.887s] Copying ../../build/weather_pkg/weather_pkg.egg-info to /home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info
+[4.889s] running install_scripts
+[5.040s] writing list of installed files to '/home/mohab/ros2_ws/build/weather_pkg/install.log'
+[5.120s] Invoked command in '/home/mohab/ros2_ws/src/weather_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohab/ros2_ws/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/weather_pkg build --build-base /home/mohab/ros2_ws/build/weather_pkg/build install --record /home/mohab/ros2_ws/build/weather_pkg/install.log --single-version-externally-managed install_data

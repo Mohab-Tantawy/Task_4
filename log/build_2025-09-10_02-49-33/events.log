@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000747] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.000879] (turtle_pkg) JobQueued: {'identifier': 'turtle_pkg', 'dependencies': OrderedDict()}
+[0.001028] (weather_pkg) JobQueued: {'identifier': 'weather_pkg', 'dependencies': OrderedDict()}
+[0.001251] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.053420] (turtle_pkg) JobStarted: {'identifier': 'turtle_pkg'}
+[0.068761] (weather_pkg) JobStarted: {'identifier': 'weather_pkg'}
+[0.099738] (-) TimerEvent: {}
+[0.203247] (-) TimerEvent: {}
+[0.308336] (-) TimerEvent: {}
+[0.411558] (-) TimerEvent: {}
+[0.517552] (-) TimerEvent: {}
+[0.618006] (-) TimerEvent: {}
+[0.725999] (-) TimerEvent: {}
+[0.979943] (-) TimerEvent: {}
+[1.081393] (-) TimerEvent: {}
+[1.183970] (-) TimerEvent: {}
+[1.285228] (-) TimerEvent: {}
+[1.387086] (-) TimerEvent: {}
+[1.489511] (-) TimerEvent: {}
+[1.590600] (-) TimerEvent: {}
+[1.693213] (-) TimerEvent: {}
+[1.796996] (-) TimerEvent: {}
+[1.900268] (-) TimerEvent: {}
+[2.000843] (-) TimerEvent: {}
+[2.102214] (-) TimerEvent: {}
+[2.203347] (-) TimerEvent: {}
+[2.304258] (-) TimerEvent: {}
+[2.406464] (-) TimerEvent: {}
+[2.507453] (-) TimerEvent: {}
+[2.611702] (-) TimerEvent: {}
+[2.713459] (-) TimerEvent: {}
+[2.813779] (-) TimerEvent: {}
+[2.919782] (-) TimerEvent: {}
+[3.055635] (-) TimerEvent: {}
+[3.160717] (-) TimerEvent: {}
+[3.293436] (-) TimerEvent: {}
+[3.395558] (-) TimerEvent: {}
+[3.546238] (-) TimerEvent: {}
+[3.651837] (-) TimerEvent: {}
+[3.759649] (-) TimerEvent: {}
+[3.869000] (-) TimerEvent: {}
+[3.972673] (-) TimerEvent: {}
+[4.083219] (-) TimerEvent: {}
+[4.190792] (-) TimerEvent: {}
+[4.297904] (-) TimerEvent: {}
+[4.406989] (-) TimerEvent: {}
+[4.516701] (-) TimerEvent: {}
+[4.521724] (turtle_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_pkg', 'build', '--build-base', '/home/mohab/ros2_ws/build/turtle_pkg/build', 'install', '--record', '/home/mohab/ros2_ws/build/turtle_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohab/ros2_ws/src/turtle_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohab', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/mohab', 'OLDPWD': '/home/mohab/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2769', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mohab/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'mohab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohab-VirtualBox:@/tmp/.ICE-unix/2688,unix/mohab-VirtualBox:/tmp/.ICE-unix/2688', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58e5f443_ba92_47aa_b6c9_73c99e416f4d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MLE4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.389', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohab/ros2_ws/build/turtle_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohab/ros2_ws/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/turtle_pkg/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[4.550370] (weather_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/weather_pkg', 'build', '--build-base', '/home/mohab/ros2_ws/build/weather_pkg/build', 'install', '--record', '/home/mohab/ros2_ws/build/weather_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohab/ros2_ws/src/weather_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohab', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/mohab', 'OLDPWD': '/home/mohab/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2769', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mohab/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'mohab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohab-VirtualBox:@/tmp/.ICE-unix/2688,unix/mohab-VirtualBox:/tmp/.ICE-unix/2688', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58e5f443_ba92_47aa_b6c9_73c99e416f4d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MLE4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.389', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohab/ros2_ws/build/weather_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohab/ros2_ws/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[4.554340] (py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pkg', 'build', '--build-base', '/home/mohab/ros2_ws/build/py_pkg/build', 'install', '--record', '/home/mohab/ros2_ws/build/py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohab/ros2_ws/src/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohab', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/mohab', 'OLDPWD': '/home/mohab/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2769', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mohab/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'mohab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohab-VirtualBox:@/tmp/.ICE-unix/2688,unix/mohab-VirtualBox:/tmp/.ICE-unix/2688', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58e5f443_ba92_47aa_b6c9_73c99e416f4d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MLE4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.389', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohab/ros2_ws/build/py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohab/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[4.641558] (-) TimerEvent: {}
+[4.746978] (-) TimerEvent: {}
+[4.823977] (turtle_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.824155] (turtle_pkg) StdoutLine: {'line': b'creating ../../build/turtle_pkg/turtle_pkg.egg-info\n'}
+[4.831739] (weather_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.831923] (weather_pkg) StdoutLine: {'line': b'creating ../../build/weather_pkg/weather_pkg.egg-info\n'}
+[4.841085] (turtle_pkg) StdoutLine: {'line': b'writing ../../build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO\n'}
+[4.842299] (turtle_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt\n'}
+[4.842466] (turtle_pkg) StdoutLine: {'line': b'writing requirements to ../../build/turtle_pkg/turtle_pkg.egg-info/requires.txt\n'}
+[4.842532] (turtle_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_pkg/turtle_pkg.egg-info/top_level.txt\n'}
+[4.842592] (turtle_pkg) StdoutLine: {'line': b"writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'\n"}
+[4.847132] (-) TimerEvent: {}
+[4.849549] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.850296] (py_pkg) StdoutLine: {'line': b'creating ../../build/py_pkg/py_pkg.egg-info\n'}
+[4.852995] (weather_pkg) StdoutLine: {'line': b'writing ../../build/weather_pkg/weather_pkg.egg-info/PKG-INFO\n'}
+[4.854150] (weather_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/weather_pkg/weather_pkg.egg-info/dependency_links.txt\n'}
+[4.854248] (weather_pkg) StdoutLine: {'line': b'writing requirements to ../../build/weather_pkg/weather_pkg.egg-info/requires.txt\n'}
+[4.854311] (weather_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/weather_pkg/weather_pkg.egg-info/top_level.txt\n'}
+[4.854369] (weather_pkg) StdoutLine: {'line': b"writing manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'\n"}
+[4.870476] (py_pkg) StdoutLine: {'line': b'writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO\n'}
+[4.874334] (py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt\n'}
+[4.874508] (py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt\n'}
+[4.874616] (py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt\n'}
+[4.875620] (py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt\n'}
+[4.875719] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[4.885350] (turtle_pkg) StdoutLine: {'line': b"reading manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'\n"}
+[4.887372] (turtle_pkg) StdoutLine: {'line': b"writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'\n"}
+[4.887559] (turtle_pkg) StdoutLine: {'line': b'running build\n'}
+[4.887627] (turtle_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.887687] (turtle_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/build/turtle_pkg/build\n'}
+[4.887755] (turtle_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/build/turtle_pkg/build/lib\n'}
+[4.887813] (turtle_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/build/turtle_pkg/build/lib/turtle_pkg\n'}
+[4.887870] (turtle_pkg) StdoutLine: {'line': b'copying turtle_pkg/__init__.py -> /home/mohab/ros2_ws/build/turtle_pkg/build/lib/turtle_pkg\n'}
+[4.887928] (turtle_pkg) StdoutLine: {'line': b'running install\n'}
+[4.896475] (turtle_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.896684] (py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[4.896855] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[4.897006] (py_pkg) StdoutLine: {'line': b'running build\n'}
+[4.897123] (py_pkg) StdoutLine: {'line': b'running install\n'}
+[4.899817] (weather_pkg) StdoutLine: {'line': b"reading manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'\n"}
+[4.900697] (weather_pkg) StdoutLine: {'line': b"writing manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'\n"}
+[4.901142] (weather_pkg) StdoutLine: {'line': b'running build\n'}
+[4.901257] (weather_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.902106] (weather_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/build/weather_pkg/build\n'}
+[4.902202] (weather_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/build/weather_pkg/build/lib\n'}
+[4.902263] (weather_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/build/weather_pkg/build/lib/weather_pkg\n'}
+[4.902319] (weather_pkg) StdoutLine: {'line': b'copying weather_pkg/__init__.py -> /home/mohab/ros2_ws/build/weather_pkg/build/lib/weather_pkg\n'}
+[4.902376] (weather_pkg) StdoutLine: {'line': b'running install\n'}
+[4.902469] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.902834] (py_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/py_pkg/share/ament_index\n'}
+[4.904187] (py_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/py_pkg/share/ament_index/resource_index\n'}
+[4.904261] (py_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[4.904322] (py_pkg) StdoutLine: {'line': b'copying resource/py_pkg -> /home/mohab/ros2_ws/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[4.904380] (py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/mohab/ros2_ws/install/py_pkg/share/py_pkg\n'}
+[4.904437] (py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.912076] (weather_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.916715] (turtle_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg\n'}
+[4.917047] (turtle_pkg) StdoutLine: {'line': b'copying /home/mohab/ros2_ws/build/turtle_pkg/build/lib/turtle_pkg/__init__.py -> /home/mohab/ros2_ws/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg\n'}
+[4.917618] (turtle_pkg) StdoutLine: {'line': b'byte-compiling /home/mohab/ros2_ws/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[4.918062] (turtle_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.918674] (turtle_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/turtle_pkg/share/ament_index\n'}
+[4.918740] (turtle_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/turtle_pkg/share/ament_index/resource_index\n'}
+[4.918830] (turtle_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/turtle_pkg/share/ament_index/resource_index/packages\n'}
+[4.918894] (turtle_pkg) StdoutLine: {'line': b'copying resource/turtle_pkg -> /home/mohab/ros2_ws/install/turtle_pkg/share/ament_index/resource_index/packages\n'}
+[4.918952] (turtle_pkg) StdoutLine: {'line': b'copying package.xml -> /home/mohab/ros2_ws/install/turtle_pkg/share/turtle_pkg\n'}
+[4.919008] (turtle_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.926919] (weather_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather_pkg\n'}
+[4.927547] (weather_pkg) StdoutLine: {'line': b'copying /home/mohab/ros2_ws/build/weather_pkg/build/lib/weather_pkg/__init__.py -> /home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather_pkg\n'}
+[4.928328] (weather_pkg) StdoutLine: {'line': b'byte-compiling /home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[4.929028] (weather_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.929224] (weather_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/weather_pkg/share/ament_index\n'}
+[4.929941] (weather_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/weather_pkg/share/ament_index/resource_index\n'}
+[4.930025] (weather_pkg) StdoutLine: {'line': b'creating /home/mohab/ros2_ws/install/weather_pkg/share/ament_index/resource_index/packages\n'}
+[4.930083] (weather_pkg) StdoutLine: {'line': b'copying resource/weather_pkg -> /home/mohab/ros2_ws/install/weather_pkg/share/ament_index/resource_index/packages\n'}
+[4.930140] (weather_pkg) StdoutLine: {'line': b'copying package.xml -> /home/mohab/ros2_ws/install/weather_pkg/share/weather_pkg\n'}
+[4.930195] (weather_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.938895] (turtle_pkg) StdoutLine: {'line': b'Copying ../../build/turtle_pkg/turtle_pkg.egg-info to /home/mohab/ros2_ws/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info\n'}
+[4.940086] (turtle_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.943894] (py_pkg) StdoutLine: {'line': b'Copying ../../build/py_pkg/py_pkg.egg-info to /home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info\n'}
+[4.945841] (py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.947649] (-) TimerEvent: {}
+[4.955827] (weather_pkg) StdoutLine: {'line': b'Copying ../../build/weather_pkg/weather_pkg.egg-info to /home/mohab/ros2_ws/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info\n'}
+[4.957452] (weather_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.048587] (-) TimerEvent: {}
+[5.096943] (turtle_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mohab/ros2_ws/build/turtle_pkg/install.log'\n"}
+[5.098088] (py_pkg) StdoutLine: {'line': b'Installing timer_node script to /home/mohab/ros2_ws/install/py_pkg/lib/py_pkg\n'}
+[5.098484] (py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mohab/ros2_ws/build/py_pkg/install.log'\n"}
+[5.109164] (weather_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mohab/ros2_ws/build/weather_pkg/install.log'\n"}
+[5.137903] (py_pkg) CommandEnded: {'returncode': 0}
+[5.149184] (-) TimerEvent: {}
+[5.185503] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[5.186032] (turtle_pkg) CommandEnded: {'returncode': 0}
+[5.188604] (turtle_pkg) JobEnded: {'identifier': 'turtle_pkg', 'rc': 0}
+[5.189158] (weather_pkg) CommandEnded: {'returncode': 0}
+[5.195987] (weather_pkg) JobEnded: {'identifier': 'weather_pkg', 'rc': 0}
+[5.197204] (-) EventReactorShutdown: {}

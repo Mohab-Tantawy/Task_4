@@ -1,7 +1,4 @@
-install/
-log/
-build/
-test/
+
 
 # Ignore generated docs
 *.dox

@@ -1,0 +1,19 @@
+[1.318s] Invoking command in '/home/mohab/ros2_ws/src/py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohab/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/mohab/ros2_ws/build/py_pkg/build install --record /home/mohab/ros2_ws/build/py_pkg/install.log --single-version-externally-managed install_data
+[1.578s] running egg_info
+[1.596s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[1.596s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[1.597s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[1.597s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[1.597s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[1.616s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.617s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.618s] running build
+[1.618s] running install
+[1.624s] running install_data
+[1.625s] running install_egg_info
+[1.664s] removing '/home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.670s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info
+[1.670s] running install_scripts
+[1.788s] Installing timer_node script to /home/mohab/ros2_ws/install/py_pkg/lib/py_pkg
+[1.788s] writing list of installed files to '/home/mohab/ros2_ws/build/py_pkg/install.log'
+[1.830s] Invoked command in '/home/mohab/ros2_ws/src/py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohab/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohab/ros2_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/mohab/ros2_ws/build/py_pkg/build install --record /home/mohab/ros2_ws/build/py_pkg/install.log --single-version-externally-managed install_data

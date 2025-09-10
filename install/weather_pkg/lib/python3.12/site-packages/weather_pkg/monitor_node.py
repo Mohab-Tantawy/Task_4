@@ -35,7 +35,7 @@ class monitor_node(Node):
     def init_data_file(self):
         """Initialize the data file with headers"""
         with open(self.data_file, 'w') as f:
-            f.write("CurrentTime,Temperature (°C),Humidity (%),Pressure (hPa)\n")
+            f.write("CurrentTime ,Temperature (°C),Humidity (%),Pressure (hPa)\n")
             f.write("----------------------------------------------------\n")
 
     def save_to_file(self):

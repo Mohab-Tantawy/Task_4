@@ -2,30 +2,26 @@
 
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int16
+import random
+from sensor_msgs.msg import FluidPressure
 
-class timer_node(Node):
+class pressure_node(Node):
     def __init__(self):
-        super().__init__('timer_node')
-        self.publisher_ = self.create_publisher(Int16, 'topic', 10)
-        self.timer = self.create_timer(1.0, self.timer_callback)
-        self.count = 10
+        super().__init__('pressure_node')
+        self.publisher_ = self.create_publisher(FluidPressure, '/pressure', 10)
+        self.timer = self.create_timer(2.0, self.timer_callback)
+        
 
     def timer_callback(self):
-        
-        
-        msg = Int16()
-        msg.data = f'{self.count}'
+        msg = FluidPressure()
+        msg.fluid_pressure = random.randint(900, 1100) # Simulated pressure value
         self.publisher_.publish(msg)
-        self.get_logger().info(f'Publishing: "{msg.data}"')
-        self.count -= 1
-        if self.count < 0:
-            self.get_logger().info('Countdown finished!')
-            self.timer.cancel()
+        self.get_logger().info(f'Publishing Pressure: "{msg.fluid_pressure:.1f}hPa"')
+        
         
 def main():
     rclpy.init()
-    node = timer_node()
+    node = pressure_node()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()

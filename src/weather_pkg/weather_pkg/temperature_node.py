@@ -3,18 +3,18 @@
 import random
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import temperature
+from sensor_msgs.msg import Temperature
 
 class temperature_node(Node):
     def __init__(self):
         super().__init__('temprature_node')
-        self.publisher_ = self.create_publisher(temperature, '/temperature', 10)
+        self.publisher_ = self.create_publisher(Temperature, '/temperature', 10)
         self.timer = self.create_timer(1.0, self.timer_callback)
         self.get.logger().info('Temperature node has been started.')
 
     def timer_callback(self):
 
-        msg = temperature()
+        msg = Temperature()
         msg.temperature = random.randint(15, 40)  # Simulated temperature value between 15 and 40
         msg.variance = 0.5  
         self.publisher_.publish(msg)

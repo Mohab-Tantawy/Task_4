@@ -8,6 +8,7 @@ import datetime
 class monitor_node(Node):
     def __init__(self):
         super().__init__('monitor_node')
+
         self.temp_sub = self.create_subscription(
             Temperature,
             '/temperature',
@@ -23,6 +24,7 @@ class monitor_node(Node):
             '/pressure',
             self.pressure_callback,
             10)
+        
         self.current_temp = None
         self.current_humi = None    
         self.current_press = None
@@ -35,7 +37,7 @@ class monitor_node(Node):
     def init_data_file(self):
         """Initialize the data file with headers"""
         with open(self.data_file, 'w') as f:
-            f.write("CurrentTime ,Temperature (°C),Humidity (%),Pressure (hPa)\n")
+            f.write("CurrentTime ,Temperature (°C) ,Humidity (%) ,Pressure (hPa)\n")
             f.write("----------------------------------------------------\n")
 
     def save_to_file(self):
@@ -64,9 +66,9 @@ class monitor_node(Node):
         self.save_to_file()
 
     def log_current_readings(self):
-        temp_str = f"{self.current_temp:.2f} °C" if self.current_temp is not None else "N/A"
-        humi_str = f"{self.current_humi:.2f} %" if self.current_humi is not None else "N/A"
-        press_str = f"{self.current_press:.2f} hPa" if self.current_press is not None else "N/A"
+        temp_str = f"{self.current_temp:.1f} °C" if self.current_temp is not None else "N/A"
+        humi_str = f"{self.current_humi:.1f} %" if self.current_humi is not None else "N/A"
+        press_str = f"{self.current_press:.1f} hPa" if self.current_press is not None else "N/A"
         
         self.get_logger().info(
             f"Current Readings - Temp: {temp_str}, Humidity: {humi_str}, Pressure: {press_str}"

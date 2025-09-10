@@ -15,7 +15,7 @@ class pressure_node(Node):
 
     def timer_callback(self):
         msg = FluidPressure()
-        msg.fluid_pressure = float(random.randint(900, 1100)) # Simulated pressure value
+        msg.fluid_pressure = float(random.randint(900, 1100)) # Simulated pressure value between 900 and 1100
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing Pressure: "{msg.fluid_pressure:.1f}hPa"')
         

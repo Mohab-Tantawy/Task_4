@@ -15,7 +15,7 @@ class humidity_node(Node):
 
     def timer_callback(self):
         msg = RelativeHumidity()
-        msg._relative_humidity = float(random.randint(20, 100)) # Simulated humidity value
+        msg._relative_humidity = float(random.randint(20, 100)) # Simulated humidity value between 20 and 100
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing humidity: "{msg.relative_humidity:.1f}%"')
         
